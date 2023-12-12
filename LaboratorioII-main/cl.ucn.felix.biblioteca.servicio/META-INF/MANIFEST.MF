@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1702318900197
+Build-Jdk-Spec: 15
+Bundle-Activator: cl.ucn.felix.biblioteca.servicio.impl.activador.Servic
+ ioImplActivador
+Bundle-ManifestVersion: 2
+Bundle-Name: cl.ucn.felix.biblioteca.servicio
+Bundle-SymbolicName: cl.ucn.felix.biblioteca.servicio
+Bundle-Version: 1.0.0
+Created-By: Apache Maven Bundle Plugin 5.1.9
+Export-Package: cl.ucn.felix.biblioteca.servicio.api;uses:="cl.ucn.felix
+ .biblioteca.api,cl.ucn.felix.biblioteca.api.impl,org.osgi.framework";ve
+ rsion="1.0.0"
+Import-Package: cl.ucn.felix.biblioteca.api,cl.ucn.felix.biblioteca.api.
+ impl,org.osgi.framework;version="[1.8,2)"
+Private-Package: cl.ucn.felix.biblioteca.servicio.impl.activador
+Tool: Bnd-6.3.1.202206071316

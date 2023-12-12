@@ -1,0 +1,7 @@
+Bundle-Activator=cl.ucn.felix.biblioteca.servicios.tui.activador.InventarioLibroTuiActivador
+Bundle-SymbolicName=cl.ucn.felix.biblioteca.servicio.tui
+Export-Package=cl.ucn.felix.biblioteca.servicios.tui
+Import-Package=cl.ucn.felix.biblioteca.api, cl.ucn.felix.biblioteca.servicio.api, org.osgi.framework
+Private-Package=cl.ucn.felix.biblioteca.servicios.tui.activador
+_noee=true
+_removeheaders=Import-Service,Export-Service
